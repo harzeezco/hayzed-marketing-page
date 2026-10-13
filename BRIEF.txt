@@ -1,0 +1,516 @@
+Act as a senior product designer, UX writer, and frontend engineer.
+
+I am building the first landing page for an early-stage Nigerian commerce project called Hayzed.
+
+This is NOT yet a full e-commerce platform.
+
+The purpose of this version is to:
+1. Clearly communicate value to potential customers.
+2. Collect interested buyers' contact details.
+3. Learn what products and shopping problems customers actually have.
+4. Give us a professional web presence while we continue researching merchants.
+5. Give customers a way to join our early-access list through email and WhatsApp.
+6. Allow us to improve the website gradually as we learn more.
+
+IMPORTANT PRODUCT PHILOSOPHY
+
+Design the page CUSTOMER-FIRST.
+
+Do not make the page primarily about:
+- Hayzed
+- our technology
+- our marketplace vision
+- AI
+- merchant digitization
+- how innovative we are
+- features we have not built
+
+A customer does not care that we are building a marketplace.
+
+The page should first answer:
+
+"What value does this give me?"
+
+CURRENT CUSTOMER PROBLEM WE ARE EXPLORING
+
+In many parts of Lagos/Nigeria, people know that products they need may exist in nearby physical markets and shops, but finding them can be inefficient.
+
+The current journey can look like:
+
+Need a product
+→ ask people where it might be sold
+→ travel to a market
+→ walk from shop to shop
+→ compare products/prices
+→ negotiate
+→ arrange transport/delivery
+→ sometimes leave without finding exactly what was needed
+
+At the same time, many good local merchants have large physical inventories that are difficult for customers to discover online.
+
+Our hypothesis is that customers may value being able to discover products from trusted local merchants before travelling around looking for them.
+
+Do NOT present this hypothesis as something we have already proven.
+
+CURRENT VALUE PROPOSITION
+
+Use a customer-facing idea around:
+
+"Find what you need from trusted local sellers, without searching shop by shop."
+
+Alternative wording can be explored, but the message should communicate:
+
+- easier product discovery
+- trusted local sellers
+- knowing what is available before travelling
+- convenient communication with sellers
+- potential local pickup/delivery
+- saving time and effort
+
+Do NOT promise:
+- same-day delivery
+- guaranteed lowest prices
+- verified sellers unless we actually implement verification
+- thousands of products
+- nationwide coverage
+- secure payments
+- installment payments
+- anything we cannot currently deliver
+
+Hayzed is currently in an early-access/research stage.
+
+TARGET CUSTOMER
+
+Primary initial audience:
+
+People in Lagos who regularly buy:
+- home appliances
+- electronics
+- household items
+- fashion/accessories
+- everyday products from physical merchants
+
+They may currently find sellers through:
+- WhatsApp
+- referrals
+- Jiji
+- Facebook Marketplace
+- Instagram
+- physical markets
+
+The first version may initially focus on products from merchants we personally know and research.
+
+BRAND
+
+Brand name: Hayzed
+
+Domain will likely be:
+hayzed.com.ng
+
+The brand should feel:
+- trustworthy
+- local
+- modern
+- straightforward
+- useful
+- human
+- not overly corporate
+- not like a Silicon Valley startup template
+- appropriate for Nigerian consumers
+
+Avoid excessive gradients, glassmorphism, crypto-style UI, AI aesthetics, and unnecessary animations.
+
+The website should feel like a real commerce company beginning locally.
+
+PAGE STRUCTURE
+
+Build a responsive single-page landing page.
+
+1. NAVIGATION
+
+Simple navigation.
+
+Logo/wordmark:
+Hayzed
+
+Possible links:
+How it works
+For buyers
+For merchants
+Join early access
+
+Primary CTA:
+Join Early Access
+
+Keep navigation minimal.
+
+2. HERO SECTION
+
+The hero must lead with CUSTOMER VALUE.
+
+Do not write:
+"We are building the future of Nigerian commerce."
+
+Instead use something closer to:
+
+"Find what you need without searching shop by shop."
+
+Supporting copy example:
+
+"Discover products from trusted local sellers and know what's available before making the trip."
+
+Another possible variation:
+
+"Find products from local sellers before you spend hours searching the market."
+
+CTA:
+Join Early Access
+
+Secondary CTA:
+I'm a Merchant
+
+Include a small reassurance:
+
+"Hayzed is currently launching with selected local merchants."
+
+The hero should immediately explain what Hayzed does without requiring someone to understand marketplaces or technology.
+
+3. CUSTOMER PROBLEM SECTION
+
+Use something like:
+
+"Shopping locally shouldn't mean searching blindly."
+
+Show a simple customer journey.
+
+Today:
+
+Need something
+→ travel around
+→ ask multiple sellers
+→ compare manually
+→ arrange transport
+
+With Hayzed:
+
+Search
+→ discover nearby options
+→ talk to seller
+→ choose how to receive it
+
+Do not exaggerate capabilities that are not yet implemented.
+
+This section should help visitors immediately recognize the problem.
+
+4. VALUE / BENEFITS SECTION
+
+Focus on outcomes, not features.
+
+Possible benefits:
+
+Know what's available
+See products before travelling around looking for them.
+
+Find local sellers
+Discover merchants that may already have what you need nearby.
+
+Talk before you travel
+Ask questions and confirm availability first.
+
+Choose what works for you
+Pickup or delivery options can be discussed directly with sellers.
+
+Keep copy very concise.
+
+5. PRODUCT PREVIEW / COMING INVENTORY
+
+We do NOT currently have a full catalogue.
+
+Do not generate fake product listings that make it appear that customers can already buy hundreds of products.
+
+Instead create a tasteful section saying something like:
+
+"Products are coming."
+
+"We're currently working directly with local merchants to bring their inventory online."
+
+Potential categories can be displayed as placeholders:
+
+Home Appliances
+Electronics
+Fashion & Accessories
+Household Items
+
+Make it visually clear that these categories are examples / coming soon.
+
+Later this section should be easy to replace with real products.
+
+6. EARLY ACCESS SECTION
+
+This is one of the most important sections.
+
+Headline:
+
+"Tell us what you're looking for."
+
+Instead of only saying "Join newsletter," turn the signup form into customer research.
+
+Form fields:
+
+Name
+Email
+WhatsApp number
+Area / location
+What are you currently looking to buy?
+
+Optional:
+"What's usually difficult when you shop for products locally?"
+
+Checkbox / consent:
+"I'd like to receive Hayzed product updates through email and WhatsApp."
+
+The consent must not be pre-selected.
+
+CTA:
+Join Early Access
+
+After submission show a useful confirmation message:
+
+"You're on the list. We'll let you know as we start adding products and sellers."
+
+Design the data structure cleanly so this can later connect to a backend/API.
+
+For now create a clean form handler abstraction instead of hardcoding business logic into the UI.
+
+7. FOR MERCHANTS
+
+This should be secondary to the buyer experience.
+
+Simple copy:
+
+"Sell locally? We'd like to learn about your business."
+
+"We're working directly with merchants to understand how customers discover and buy products."
+
+CTA:
+Join as a Merchant
+
+Merchant form can collect:
+
+Owner name
+Business name
+Phone/WhatsApp
+Email
+Business category
+Market/location
+How do you currently sell online?
+Biggest challenge finding customers
+
+Keep this secondary.
+
+8. TRUST / EARLY STAGE TRANSPARENCY
+
+Include a small section explaining:
+
+"Hayzed is starting small."
+
+"We're currently working directly with local merchants and customers in Lagos to understand how local buying and selling can work better online."
+
+This transparency is intentional.
+
+We don't want to pretend we are already a huge marketplace.
+
+9. WHATSAPP CTA
+
+WhatsApp will be an important communication channel.
+
+Include a floating or visible WhatsApp contact button.
+
+But do not make it aggressive or intrusive.
+
+Possible CTA:
+"Chat with Hayzed"
+
+Make the WhatsApp phone number configurable through environment/configuration rather than embedding it everywhere.
+
+10. FOOTER
+
+Hayzed
+
+Short description:
+"Helping people discover products from local sellers."
+
+Include:
+Email
+WhatsApp
+Privacy
+Terms
+
+Placeholder email:
+hello@hayzed.com.ng
+
+Do not invent physical addresses or company-registration claims.
+
+DESIGN DIRECTION
+
+Mobile-first.
+
+A large percentage of users will likely access this through WhatsApp links on mobile devices.
+
+Prioritize:
+- fast loading
+- large readable typography
+- excellent mobile layout
+- obvious CTAs
+- simple navigation
+- high contrast
+- generous spacing
+- minimal JavaScript
+- accessibility
+- SEO basics
+- semantic HTML
+
+The design should feel warm and commerce-oriented rather than technical.
+
+Avoid a dashboard-looking interface.
+
+Use photography/product imagery carefully.
+
+If real merchant/product photos are not currently available, use neutral visual placeholders rather than misleading fake inventory.
+
+TECHNICAL REQUIREMENTS
+
+First inspect the existing repository and determine its framework and conventions.
+
+Do not unnecessarily replace the existing stack.
+
+If this is an empty/new project and a choice must be made, use:
+
+Next.js
+TypeScript
+Tailwind CSS
+
+Use reusable components, but do not over-engineer.
+
+Suggested components:
+
+Navbar
+Hero
+ProblemJourney
+Benefits
+CategoryPreview
+EarlyAccessForm
+MerchantSection
+TrustSection
+WhatsAppCTA
+Footer
+
+Keep content easy to edit because our messaging will change as customer research progresses.
+
+Create a central content/config file where possible rather than scattering copy throughout components.
+
+Create clear types/interfaces for forms.
+
+Forms should:
+- validate fields
+- have useful error messages
+- support loading state
+- support successful submission state
+- work well on mobile
+- be accessible
+
+Do not create a fake backend.
+
+If there is currently no backend/API:
+abstract submission behind a function/service and clearly mark where the future API integration goes.
+
+Analytics readiness:
+
+Prepare meaningful event names for future analytics, such as:
+
+early_access_started
+early_access_submitted
+merchant_interest_started
+merchant_interest_submitted
+whatsapp_clicked
+
+Do not install unnecessary analytics services yet unless one already exists.
+
+SEO:
+
+Title:
+Hayzed — Find Products From Local Sellers
+
+Description:
+Discover products from local sellers and know what's available before you make the trip. Join Hayzed early access.
+
+Include sensible Open Graph metadata.
+
+IMPORTANT COPY PRINCIPLE
+
+Whenever there is a choice between describing Hayzed and describing a customer outcome:
+
+choose the customer outcome.
+
+Bad:
+"Hayzed digitizes fragmented local commerce."
+
+Better:
+"Know what's available before you spend time searching."
+
+Bad:
+"Our platform connects merchants with consumers."
+
+Better:
+"Find local sellers who have what you're looking for."
+
+Bad:
+"Join our revolutionary marketplace."
+
+Better:
+"Tell us what you're looking for."
+
+IMPORTANT PRODUCT CONSTRAINT
+
+This is version 0.1.
+
+Do not build:
+- authentication
+- shopping cart
+- checkout
+- payment integration
+- merchant dashboard
+- product management system
+- order tracking
+- complex backend
+- admin dashboard
+
+unless the repository already contains these and they are required for the landing page.
+
+The goal is not to simulate a finished marketplace.
+
+The goal is:
+
+customer value proposition
++
+interest collection
++
+customer research
++
+merchant interest
++
+WhatsApp/email acquisition
+
+Before coding:
+
+1. Inspect the repository.
+2. Briefly explain the proposed page hierarchy.
+3. Identify anything in the existing project that should be reused.
+4. Then implement the landing page.
+5. Run the available lint/typecheck/build checks.
+6. Fix issues you introduce.
+7. Summarize what was implemented and where the main copy/configuration can be changed.
+
+Most importantly:
+
+Treat this as the beginning of a company learning about its customers, not the launch of a completed e-commerce product.
